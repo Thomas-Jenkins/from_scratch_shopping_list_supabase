@@ -52,3 +52,41 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+#list-container {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    height: 600px;
+    width: 500px;
+    border: solid;
+}
+#list-add {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#inputs {
+    display: grid;
+    grid-template-columns: auto 70px;
+}
+.list-item {
+    margin: 5px;
+    padding: 3px;
+    background-color: bisque;
+}
+.box {
+    border: solid;
+}
+.bought {
+    text-decoration: line-through;
+    background-color:forestgreen;
+}
+#list {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.count, .name {
+    padding: 0px 2px;
+}
+#submit {
+    height: 100%;
+}
