@@ -29,7 +29,6 @@ const deleteBtn = document.getElementById('delete');
 // local state:
 let currentList = [];
 displayList();
-
 // display functions:
 
 function renderList(list, literallyAnyFunction) {
