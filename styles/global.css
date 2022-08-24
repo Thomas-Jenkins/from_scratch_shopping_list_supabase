@@ -67,8 +67,26 @@ footer {
     display: grid;
     grid-template-columns: auto 70px;
 }
+.list-item {
+    margin: 5px;
+    padding: 3px;
+    background-color: bisque;
+}
 .box {
     border: solid;
-}.bought {
+}
+.bought {
     text-decoration: line-through;
+    background-color:forestgreen;
+}
+#list {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.count, .name {
+    padding: 0px 2px;
+}
+#submit {
+    height: 100%;
 }

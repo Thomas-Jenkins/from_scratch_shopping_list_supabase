@@ -38,8 +38,10 @@ function renderList(list, literallyAnyFunction) {
     const name = document.createElement('span');
     
     list.bought ? div.classList.add('bought') : div.classList.remove('bought');
-
-    div.textContent = 'Need: ';
+    list.bought ? div.classList.remove('list-item') : div.classList.add('list-item');
+    div.classList.add('list-item');
+    count.classList.add('count');
+    name.classList.add('name');
     count.textContent = list.quantity;
     name.textContent = list.item;
     
